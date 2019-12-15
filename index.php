@@ -12,12 +12,13 @@ require_once ("config.php");
 //echo json_encode($lista);
 
 //Carrega uma lista de usuarios buscando pelo login
-//$search = Usuario::search("a");
+//$search = Usuario::search("Gil");
 //echo json_encode($search);
 
-$usuario = new Usuario();
-$usuario->login("root", "!@#$");
-echo $usuario;
+//Carrega os dados com base no deslogin e dessenha
+//$usuario = new Usuario();
+//$usuario->login("Gilberto José Silva", "g1j2s3scp");
+//echo $usuario;
 
 /*
 $sql = new Sql();

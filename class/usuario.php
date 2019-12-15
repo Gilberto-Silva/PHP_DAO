@@ -93,7 +93,8 @@ class Usuario {
 
             throw new Exception("Login e/ou Senha inválidos.");
 
-        }    }
+        }
+    }
 
     public static function search($login) {
 
