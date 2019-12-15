@@ -39,7 +39,7 @@ $usuario->loadById(8);
 $usuario->update("professor", "qwertdf");
 
 echo $usuario;
-*/
+
 
 // deletar um usuario
 
@@ -48,5 +48,6 @@ $usuario->loadById(8);
 $usuario->delete();
 
 echo "<h2>Usuário eliminado.</h2><br>" . $usuario;
+*/
 
 ?>
