@@ -24,6 +24,12 @@ require_once ("config.php");
 $sql = new Sql();
 $usuarios = $sql->select("SELECT * FROM tb_usuarios");
 echo json_encode($usuarios);
+
+
+$aluno = new Usuario("Cristina Pessanha", "458796");
+$aluno->insert();
+
+echo ("<h2>Inserido com sucesso!</h2><br/>");
 */
 
 ?>
